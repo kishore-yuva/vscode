@@ -449,3 +449,33 @@ form button[type="submit"]:hover {
     background: linear-gradient(45deg, #00c4ff, #00ff6a);
     box-shadow: 0 5px 25px rgba(0, 255, 150, 0.5);
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.container p {
+    margin: 0;
+}
+
+.container a {
+    color: #00b3b3;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.container a i {
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.container a:hover {
+    color: #00ffff;
+}
